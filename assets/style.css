@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    background-color: #f4f2fb;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.app-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 24px;
+}
+
+.header {
+    text-align: center;
+    padding: 24px 16px;
+    background: linear-gradient(135deg, #6c5ce7, #a29bfe);
+    color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(108, 92, 231, 0.3);
+    margin-bottom: 24px;
+}
+
+.header h1 {
+    margin: 0 0 8px 0;
+    font-size: 28px;
+}
+
+.header p {
+    margin: 0;
+    font-size: 15px;
+    opacity: 0.9;
+}
+
+.controls {
+    background-color: white;
+    border-radius: 12px;
+    padding: 16px 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+    text-align: center;
+}
+
+.controls-label {
+    font-weight: 600;
+    color: #2d3436;
+    margin-right: 12px;
+}
+
+.radio-group label {
+    margin: 0 10px;
+    font-size: 15px;
+    color: #2d3436;
+    cursor: pointer;
+}
+
+.radio-group input[type="radio"] {
+    margin-right: 6px;
+    cursor: pointer;
+    accent-color: #6c5ce7;
+}
+
+.chart-card {
+    background-color: white;
+    border-radius: 12px;
+    padding: 16px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
